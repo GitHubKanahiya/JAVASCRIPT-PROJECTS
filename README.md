@@ -26,7 +26,7 @@ Include screenshots or GIFs of your project in action. For example:
 Installation
 To run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/GitHubKanahiya.git
+Clone the repository: git clone GitHubKanahiya/JAVASCRIPT MINI-1
 Navigate into the project directory: cd share-profile-modal
 Open index.html in your preferred web browser.
 Usage
