@@ -1,28 +1,3 @@
-const inputslider = document.querySelector("[data-lengthslider]");
-const lengthDisplay = documnet.queryselector("[data-length-number");
-
-const passwordDisplay = document.querySelector("[data-passwordDisplay]");
-const copybtn = document.queryselector("[data-copy]");
-const copyMsg = document.querySelector("[data-copymsg]");
-const uppercasecheck = document.queryselector("#uppercse");
-const lowercasecheck = document.querySelector("#lowercse");
-const numberscheck= document.queryselector("#numbers");
-const symbolscheck = document.querySelector("[#symbols]");
-const Indicator = document.queryselector("[data-indicator]");
-const genratebtn = document.querySelector(".genratevtn");
-const allcheckBox = document.queryselectorAll("input[type=checkbox");
-const Symbols = '~<@#$%^&*()_{}"?><|_';
-
-
-//intially
-let Password="";
-let PasswordLength = 10;
-let checkcount = 1;
-handleSlider(); 
-//set strength circle color grey
-setIndicator("#ccc");
-
-
 // Handle Slider Control and Display Password Length 
 let lengthDisplay = document.querySelector('[lengthDisplay');
 // console.log(lengthDisplay)
@@ -240,7 +215,22 @@ generateBtn.addEventListener('click', () => {
     password = shuffle(Array.from(password));
     passwordDisplay.value = password;
     calcStrength();
-});
+});///////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
