@@ -1,7 +1,7 @@
 const inputslider = document.querySelector("[data-lengthslider]");
-const LengthDisplay = documnet.queryselector("[data-length-number");
+const lengthDisplay = documnet.queryselector("[data-length-number");
 
-const PasswordDisplay = document.querySelector("[data-passwordDisplay]");
+const passwordDisplay = document.querySelector("[data-passwordDisplay]");
 const copybtn = document.queryselector("[data-copy]");
 const copyMsg = document.querySelector("[data-copymsg]");
 const uppercasecheck = document.queryselector("#uppercse");
@@ -24,7 +24,7 @@ setIndicator("#ccc");
 
 
 // Handle Slider Control and Display Password Length 
-let LengthDisplay = document.querySelector('[lengthDisplay');
+let lengthDisplay = document.querySelector('[lengthDisplay');
 // console.log(lengthDisplay)
 let slider = document.querySelector('input[type=range]');
 // console.log(slider)
